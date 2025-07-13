@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/home.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+    <title>User</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <h1 class="navbar-brand">BRAND NAME</h1>
+
+            <!-- Toggler / Hamburger Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" 
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto space"> <!-- ms-auto = right align -->
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" 
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        More
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">About</a></li>
+                        <li><a class="dropdown-item" href="#">Contact</a></li>
+                        <li><a class="dropdown-item" href="#">Help</a></li>
+                    </ul>
+                    </li>
+                    <li class="nav-item">
+                    <form class="d-flex align-items-center position-relative search-group" role="search" id="search-form">
+                        <i class="bi bi-search search-icon"></i>
+                        <input class="form-control form-control-sm ps-5 me-2" type="search" placeholder="Search" aria-label="Search">
+                    </form>
+                    </li>
+                </ul>
+                <a href="#"><i class="bi bi-cart3" id="cart"></i></a>
+                <a href="profile.html"><i class="bi bi-person-circle" id="profile"></i></a>
+            </div>
+        </div>
+    </nav>
+    
+    <main class="main-layout">
+        <!-- Left Column -->
+        <section class="left-column">
+            <!-- Banner -->
+            <div class="banner">
+                <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/198b0e171616083.64f99764d284a.jpg" alt="Vapormax banner">
+            </div>
+
+            <!-- New Arrivals -->
+            <h3 class="section-title">New Arrivals</h3>
+            <div class="arrivals-grid">
+                <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/a4b97d0e-0065-4818-90f2-b0778ac48c6b/AIR+JORDAN+4+RETRO.png" alt="Shoe 1">
+                <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/fb1b763b-54ad-49f4-86c1-112304573a32/AIR+JORDAN+1+LOW.png" alt="Shoe 2">
+                <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/0abd1ece-612d-4c06-b21d-a8f3d8fa7901/AIR+JORDAN+1+LOW.png" alt="Shoe 3">
+            </div>
+        </section>
+
+        <!-- Right Column -->
+        <section class="right-column">
+            <div class="sale-items">
+                <img src="https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/9a3ad27b-a516-40e3-9911-a0eb42aa51dc/JORDAN+CMFT+ERA.png" alt="Sale 1">
+                <img src="https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/2085e1ea-854f-457d-992d-ac4352a9652d/AIR+JORDAN+1+LOW.png" alt="Sale 2">
+                <img src="https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/0609cd87-5a68-42d5-b3fd-738ff97d6718/WMNS+AIR+JORDAN+1+LOW.png" alt="Sale 3">
+            </div>
+            <h3 class="section-title">SALE</h3>
+            <div class="adidas-banner">
+                <img src="https://stastic.ui4free.com/public/images/figma-adidas-presentation-template_1635303643.jpg" alt="Adidas Banner">
+            </div>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

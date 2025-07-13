@@ -1,0 +1,39 @@
+body {
+  background: linear-gradient(to right, #1c272c, #8da9ab);
+}
+
+.main-layout {
+    display: grid;
+    margin: 50px 50px 20px 50px;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    display: block;
+    margin: 10px auto !important;
+    padding: 10px 20px !important;
+    background-color: #1c272c !important;
+    color: #fff;
+    border: 2px solid #8da9ab !important;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #8da9ab;
+}
+
+.main-layout {
+    font-size: 26px;
+    text-align: center;
+    color: #ffffff;
+}
+
+span {
+    color: rgb(0, 0, 0) !important;
+    font-size: 24px !important;
+    font-weight: bold !important;
+}

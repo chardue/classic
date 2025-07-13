@@ -1,0 +1,116 @@
+body {
+  background: linear-gradient(to right, #1c272c, #8da9ab);
+}
+
+.main-layout {
+  margin: 50px 50px 20px 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+
+/* LEFT COLUMN */
+.left-column .banner img {
+  width: 100%;
+  height: 400px; /* Increased height */
+  object-fit: cover;
+  border-radius: 12px;
+  border: 8px solid #ffffff;
+  margin-bottom: 2rem;
+}
+
+.section-title {
+  font-size: 1.6rem;
+  color: #ffffff;
+  text-align: center;
+  margin: 10px 0 40px;
+  font-weight: bold;
+}
+
+/* Arrivals Grid */
+.arrivals-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.arrivals-grid img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 5px solid #ffffff;
+}
+
+/* RIGHT COLUMN */
+.right-column {
+  display: flex;
+  flex-direction: column;
+}
+
+h3 {
+  font-size: 32px !important;
+  color: #ffffff;
+}
+
+/* Sale items stacked vertically, bigger */
+.sale-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.sale-items img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 5px solid #ffffff;
+}
+
+/* Adidas banner */
+.adidas-banner img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 8px solid #ffffff;
+}
+
+/* Responsive Tweaks */
+@media (max-width: 992px) {
+  .main-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .arrivals-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .sale-items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .adidas-banner img {
+    height: 180px;
+  }
+}
+
+@media (max-width: 600px) {
+  .arrivals-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .sale-items {
+    grid-template-columns: 1fr;
+  }
+
+  .adidas-banner img {
+    height: 160px;
+  }
+
+  .left-column .banner img {
+    height: 300px;
+  }
+}

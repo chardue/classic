@@ -1,0 +1,91 @@
+.nav {
+    display: flex;
+}
+
+.navbar {
+    background: linear-gradient(to right, #1c272c, #8da9ab);
+    padding: 10px 50px;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff !important;
+}
+
+.nav-link {
+    color: #ffffff !important;
+    margin-right: 15px;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #c6f8e1 !important;
+}
+
+.dropdown-menu {
+    background-color: #2d2d44;
+}
+
+.dropdown-item {
+    color: #e0e0e0;
+}
+
+.dropdown-item:hover {
+    background-color: #444465;
+    color: #ffffff;
+}
+
+/* Optional: Add shadow */
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.bi {
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+}
+
+button {
+    color: none !important;
+    background: none !important;
+    border: none !important;
+}
+
+.search-icon {
+    background-color: white;
+    border-radius: 5px;
+}
+
+#cart, #profile {
+    color: white;
+    font-size: 1.5rem;
+    margin-right: 15px;
+}
+
+form {
+    padding-top: 5px;
+}
+
+input.form-control {
+    border: #000000 1px solid;
+}
+
+.search-icon {
+    position: absolute;
+    top: 55%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #000000;
+    pointer-events: none;
+    font-size: 1rem;
+    background-color: transparent;
+}
+
+.search-group input {
+    padding-left: 2rem !important;
+}
+
+.space {
+    margin-right: 20px;
+}
