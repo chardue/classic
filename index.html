@@ -27,8 +27,8 @@
                 <button type="submit" id="submitLogin" class="btn">Login</button>
                 <p>or login with social platforms</p>
                 <div class="social-icons">
-                    <a href="#"><i class='bx bxl-github'></i></a>
-                    <a href="#"><i class='bx bxl-gmail' ></i></a>
+                    <button><i class='bx bxl-github'></i></button>
+                    <button id="googleLogin"><i class='bx bxl-gmail' ></i></button>
                 </div>
             </form>
         </div>
@@ -50,11 +50,6 @@
                     <i class="bx bxs-lock-alt"></i>
                 </div>
                 <button type="submit" id="submitSignUp" class="btn">Register</button>
-                <p>or register with social platforms</p>
-                <div class="social-icons">
-                    <a href="#"><i class='bx bxl-github'></i></a>
-                    <a href="#"><i class='bx bxl-gmail' ></i></a>
-                </div>
             </form>
         </div>
 
@@ -73,6 +68,7 @@
     </div>
 
     <script src="js/login.js"></script>
+    <script type="module" src="js/socialauth.js"></script>
     <script type="module" src="js/firebaseauth.js"></script>
 </body>
 </html>
